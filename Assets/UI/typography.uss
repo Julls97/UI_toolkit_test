@@ -1,0 +1,48 @@
+/* Типографика */
+
+h1 {
+    font-size: 32px; /* 2rem */
+    unity-font-style: bold;
+    color: #1a1a1a;
+}
+
+h2 {
+    font-size: 24px; /* 1.5rem */
+    unity-font-style: bold;
+    color: #1a1a1a;
+}
+
+h3 {
+    font-size: 20px; /* 1.25rem */
+    unity-font-style: bold;
+    color: #1a1a1a;
+}
+
+h4 {
+    font-size: 18px; /* 1.125rem */
+    unity-font-style: bold;
+    color: #1a1a1a;
+}
+
+p {
+    font-size: 16px; /* 1rem */
+    unity-font-style: normal;
+    line-height: 1.6;
+    color: #1a1a1a;
+}
+
+label {
+    font-size: 14px;
+    unity-font-style: bold;
+    color: #1a1a1a;
+}
+
+button {
+    font-size: 14px;
+    unity-font-style: bold;
+}
+
+input, textarea, select {
+    font-size: 16px;
+    unity-font-style: normal;
+}

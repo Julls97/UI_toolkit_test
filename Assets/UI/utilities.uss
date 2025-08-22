@@ -1,0 +1,58 @@
+/* Утилиты */
+
+/* Фокус подсветка */
+:focus {
+    outline-color: #4f46e5;
+    outline-width: 2px;
+}
+
+/* Скрыть скролл */
+.scrollbar-hide {
+    overflow: hidden;
+}
+
+/* Сайдбар прокрутка */
+.sidebar-scroll {
+    overflow: auto;
+}
+
+/* Простые тени */
+.shadow-sm {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+.shadow-lg {
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
+.shadow-xl {
+    box-shadow: 0 20px 25px rgba(0,0,0,0.1);
+}
+
+/* Анимации для кнопок */
+button:hover {
+    transition: all 200ms ease-in-out;
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+/* Стиль для полей ввода */
+TextField {
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: #e2e8f0;
+    background-color: #ffffff;
+    padding: 10px;
+    font-size: 16px;
+}
+
+TextField:focus {
+    border-color: #4f46e5;
+    outline-width: 0;
+}
+
+/* Стиль для placeholder */
+TextField > #unity-text-input {
+    color: #64748b;
+}

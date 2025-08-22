@@ -1,0 +1,45 @@
+/* Светлая тема */
+
+.background {
+    background-color: #ffffff;
+}
+
+.background-subtle {
+    background-color: #FAFBFE;
+}
+
+.foreground {
+    color: #1a1a1a;
+}
+
+.card {
+    background-color: #ffffff;
+    color: #1a1a1a;
+}
+
+/* Основные акценты */
+.primary {
+    background-color: #4f46e5;
+    color: #ffffff;
+}
+.primary-text {
+    color: #4f46e5;
+}
+
+.secondary {
+    background-color: #f1f5f9;
+    color: #334155;
+}
+
+/* Тёплые фирменные цвета */
+.brand-warm-50 { background-color: #fff7ed; }
+.brand-warm-100 { background-color: #ffedd5; }
+.brand-warm-200 { background-color: #fed7aa; }
+.brand-warm-300 { background-color: #fdba74; }
+.brand-warm-400 { background-color: #fb923c; }
+.brand-warm-500 { background-color: #f97316; }
+.brand-warm-600 { background-color: #ea580c; }
+.brand-warm-700 { background-color: #c2410c; }
+.brand-warm-800 { background-color: #9a3412; }
+.brand-warm-900 { background-color: #7c2d12; }
+.brand-warm-950 { background-color: #431407; }
