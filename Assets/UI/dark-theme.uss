@@ -16,7 +16,9 @@
     border-radius: 12px;
     padding: 20px;
     margin: 10px;
+    width: 300px;
     min-width: 300px;
+    max-width: 300px;
     box-shadow: 0 10px 15px rgba(0,0,0,0.3);
 }
 
@@ -25,6 +27,8 @@
     font-weight: bold;
     margin-bottom: 10px;
     color: #f1f5f9;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .card-description {
@@ -33,6 +37,8 @@
     margin-bottom: 15px;
     color: #cbd5e1;
     white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .card-button {
