@@ -129,9 +129,10 @@ GameObject:
   m_Component:
   - component: {fileID: 350134252}
   - component: {fileID: 350134251}
+  - component: {fileID: 350134254}
   - component: {fileID: 350134253}
   m_Layer: 0
-  m_Name: ui toolkit
+  m_Name: UI Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -184,13 +185,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 350134249}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf6cee100e7edfa46b19c47a554743ea, type: 3}
+  m_Script: {fileID: 11500000, guid: afe4841f180082944afb068d342d5cd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ThemeController
   lightTheme: {fileID: 7433441132597879392, guid: c2031529b2f24114dacc77cab7cabefd, type: 3}
   darkTheme: {fileID: 7433441132597879392, guid: 982ed198157807247a09787dae5ec82b, type: 3}
-  typography: {fileID: 7433441132597879392, guid: 47996b1eb3d8ed7489e24a76783ab6e4, type: 3}
-  utilities: {fileID: 7433441132597879392, guid: bb69f9e5fc5580547ba6a240cbf1eaf6, type: 3}
+  uiDocument: {fileID: 350134251}
+--- !u!114 &350134254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 350134249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e61ae80c2731cc0449135db2d28cac01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UISetup
+  uiDocument: {fileID: 350134251}
+  themeController: {fileID: 350134253}
+  cardManager: {fileID: 0}
+  cardCreator: {fileID: 0}
+  lightTheme: {fileID: 7433441132597879392, guid: c2031529b2f24114dacc77cab7cabefd, type: 3}
+  darkTheme: {fileID: 7433441132597879392, guid: 982ed198157807247a09787dae5ec82b, type: 3}
 --- !u!1 &2020516411
 GameObject:
   m_ObjectHideFlags: 0

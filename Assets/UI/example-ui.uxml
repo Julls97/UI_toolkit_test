@@ -1,45 +1,12 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
-    <Style src="project://database/Assets/Test/ui%20toolkit/UI/light-theme.uss?fileID=7433441132597879392&amp;guid=c2031529b2f24114dacc77cab7cabefd&amp;type=3#light-theme" />
-    <Style src="project://database/Assets/Test/ui%20toolkit/UI/typography.uss?fileID=7433441132597879392&amp;guid=47996b1eb3d8ed7489e24a76783ab6e4&amp;type=3#typography" />
-    <Style src="project://database/Assets/Test/ui%20toolkit/UI/utilities.uss?fileID=7433441132597879392&amp;guid=bb69f9e5fc5580547ba6a240cbf1eaf6&amp;type=3#utilities" />
+    <Style src="project://database/Assets/UI/light-theme.uss?fileID=7433441132597879392&amp;guid=c2031529b2f24114dacc77cab7cabefd&amp;type=3#light-theme" />
+    <Style src="project://database/Assets/UI/dark-theme.uss?fileID=7433441132597879392&amp;guid=c2031529b2f24114dacc77cab7cabefd&amp;type=3#dark-theme" />
     <ui:VisualElement name="root" class="background" style="padding: 20px; min-height: 100%;">
-        <ui:Label text="Design System Demo" name="main-title" class="foreground" style="font-size: 32px; unity-font-style: bold; margin-bottom: 20px;" />
-        <ui:VisualElement name="cards-container" style="flex-direction: row; flex-wrap: wrap; gap: 20px; margin-bottom: 30px;">
-            <ui:VisualElement name="light-card" class="card shadow-lg" style="width: 300px; padding: 20px; border-radius: 12px; border-width: 1px; border-color: rgb(226, 232, 240);">
-                <ui:Label text="Primary Card" class="foreground" style="font-size: 20px; unity-font-style: bold; margin-bottom: 10px;" />
-                <ui:Label text="Это пример карточки с основным стилем. Текст хорошо читается на светлом фоне." class="foreground" style="font-size: 16px; line-height: 1.5; margin-bottom: 15px; white-space: pre-wrap;" />
-                <ui:Button text="Primary Action" name="primary-btn" class="primary" style="padding: 10px 20px; border-radius: 8px; border-width: 0;" />
-            </ui:VisualElement>
-            <ui:VisualElement name="brand-card" class="brand-warm-50 shadow-lg" style="width: 300px; padding: 20px; border-radius: 12px; border-width: 1px; border-color: rgb(254, 215, 170);">
-                <ui:Label text="Brand Warm Card" style="font-size: 20px; unity-font-style: bold; margin-bottom: 10px; color: rgb(154, 52, 18);" />
-                <ui:Label text="Карточка с тёплыми фирменными цветами. Отлично подходит для акцентов." style="font-size: 16px; line-height: 1.5; margin-bottom: 15px; color: rgb(124, 45, 18); white-space: pre-wrap;" />
-                <ui:Button text="Brand Action" name="brand-btn" class="brand-warm-600" style="padding: 10px 20px; border-radius: 8px; border-width: 0; color: white; -unity-text-align: upper-left;" />
-            </ui:VisualElement>
-        </ui:VisualElement>
-        <ui:VisualElement name="typography-section" style="margin-bottom: 30px;">
-            <ui:Label text="Typography Scale" class="foreground" style="font-size: 24px; unity-font-style: bold; margin-bottom: 15px;" />
-            <ui:Label text="H1 - Main Heading (32px)" class="foreground" style="font-size: 32px; unity-font-style: bold; margin-bottom: 8px;" />
-            <ui:Label text="H2 - Section Heading (24px)" class="foreground" style="font-size: 24px; unity-font-style: bold; margin-bottom: 8px;" />
-            <ui:Label text="H3 - Subsection (20px)" class="foreground" style="font-size: 20px; unity-font-style: bold; margin-bottom: 8px;" />
-            <ui:Label text="H4 - Minor Heading (18px)" class="foreground" style="font-size: 18px; unity-font-style: bold; margin-bottom: 8px;" />
-            <ui:Label text="Body Text - Основной текст для чтения (16px). Этот размер хорошо подходит для длинных текстов и обеспечивает комфортное чтение." class="foreground" style="font-size: 16px; line-height: 1.6; margin-bottom: 8px;" />
-        </ui:VisualElement>
-        <ui:VisualElement name="controls-section" style="margin-bottom: 30px;">
-            <ui:Label text="UI Controls" class="foreground" style="font-size: 24px; unity-font-style: bold; margin-bottom: 15px;" />
-            <ui:VisualElement style="flex-direction: row; gap: 15px; margin-bottom: 15px;">
-                <ui:Button text="Primary" class="primary" style="padding: 12px 24px; border-radius: 8px; border-width: 0;" />
-                <ui:Button text="Secondary" class="secondary" style="padding: 12px 24px; border-radius: 8px; border-width: 1px; border-color: rgb(226, 232, 240);" />
-                <ui:Button text="Brand Warm" class="brand-warm-500" style="padding: 12px 24px; border-radius: 8px; border-width: 0; color: white;" />
-            </ui:VisualElement>
-            <ui:VisualElement style="margin-bottom: 15px;">
-                <ui:Label text="Input Field:" class="foreground" style="font-size: 14px; unity-font-style: bold; margin-bottom: 5px;" />
-                <ui:TextField placeholder-text="Введите текст здесь..." style="padding: 10px; border-radius: 6px; border-width: 1px; border-color: rgb(226, 232, 240); background-color: rgb(255, 255, 255);" />
-            </ui:VisualElement>
-        </ui:VisualElement>
         <ui:VisualElement name="theme-switcher" style="align-items: flex-start;">
-            <ui:Label text="Theme Switcher" class="foreground" style="font-size: 20px; unity-font-style: bold; margin-bottom: 10px;" />
-            <ui:Button text="🌙 Switch to Dark Theme" name="theme-toggle" class="secondary" style="padding: 10px 20px; border-radius: 8px; border-width: 1px; border-color: rgb(226, 232, 240);" />
+            <ui:Button text="🌙 Switch to Dark Theme" name="theme-toggle" class="secondary card-button" style="align-items: flex-start;" />
         </ui:VisualElement>
-        <ui:Label text="Small Text - Вспомогательный текст (14px)" class="foreground" style="font-size: 14px; margin-bottom: 15px;" />
+        <ui:VisualElement name="cards-container" style="flex-direction: row; flex-wrap: wrap; gap: 20px; margin-bottom: 30px;">
+            <!-- Карточки будут создаваться динамически из кода -->
+        </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>
